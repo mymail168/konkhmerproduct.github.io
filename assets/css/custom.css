@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Koulen;
+    src: url(../fonts/Koulen/Koulen-Regular.ttf);
+}
+@font-face {
+    font-family: Kantumruy;
+    src: url(../fonts/Kantumruy_Pro/static/KantumruyPro-Regular.ttf);
+}
+@font-face {
+    font-family: KantumruySemiBold;
+    src: url(../fonts/Kantumruy_Pro/static/KantumruyPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/Open_Sans/static/OpenSans-Bold.ttf);
+}
+
+body{
+    font-family:Kantumruy, OpenSansRegular ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Koulen, OpenSansBold !important;
+    color: #587e08 !important;
+}
+.menu li a, .menu li a.active{
+    font-family: Koulen, OpenSansBold !important;
+}
+.header {
+    background: #03d100;
+}
+.card_2{
+    margin-top: 15px;
+    border-radius: 13px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.card_2:hover{
+    transition: all .5s;
+    transform : translateY(-10px);
+}
+.image_card {
+    aspect-ratio: 3 / 3;
+    object-fit: cover;
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+}
+.btn_buy {
+    font-size: 1.5rem;
+}
+.title_card {
+    font-family:KantumruySemiBold, OpenSansRegular ;
+    font-size: 2rem;
+    color: #04502d;
+}
+.one_line {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1   ;
+    -webkit-box-orient: vertical; 
+  }
+
+.video_ifram {
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.social_media_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.footer_menu {
+    display: flex;
+    flex-direction: column;
+}
+.footer_menu a {
+    text-decoration: none;
+    font-family: KantumruySemiBold, OpenSansBold !important;
+    color: #587e08 !important;
+    font-size: 1.2rem;
+}
+
+.footer_copy_right {
+    text-align: center;
+    background: #587e08;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.nav .nav-item button.active {
+    background-color: transparent;
+    color: var(--bs-danger) !important;
+  }
+  .nav .nav-item button.active::after {
+    content: "";
+    border-right: 4px solid var(--bs-danger);
+    height: 100%;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+  }
+  .nav .nav-item button {
+    text-align: right !important;
+  }  
+
+.box_menu {
+    padding: 30px !important;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.btn_menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-item_tab{
+    width: 100%;
+    font-family:KantumruySemiBold, OpenSansRegular ;
+    font-size: 1.3rem;
+    color: #04502d;
+}
+.border_shadow{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
